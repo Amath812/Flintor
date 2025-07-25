@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardScreen2">
+
+    <TextView
+        android:id="@+id/onboardt4"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="600dp"
+        android:text="@string/swap_and_grow"
+        android:textColor="#000435"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/nextbtn2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="#000435"
+        android:text="@string/next" />
+
+    <TextView
+        android:id="@+id/onboardt5"
+        android:layout_width="322dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="548dp"
+        android:text="@string/offer_your_expertise_and_learn_new_skills_in_return_no_money_just_knowlegde"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/onboardt6"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/skip"
+        android:textAlignment="center"
+        android:textColor="#000435" />
+
+    <ImageView
+        android:id="@+id/ob2"
+        android:layout_width="386dp"
+        android:layout_height="385dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="153dp"
+        app:srcCompat="@drawable/ob2" />
+</RelativeLayout>

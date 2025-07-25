@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardScreen1">
+
+    <ImageView
+        android:id="@+id/ob1"
+        android:layout_width="317dp"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/ob1" />
+
+    <TextView
+        android:id="@+id/onboardt1"
+        android:layout_width="203dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="591dp"
+        android:text="@string/welcome_to_flintor"
+        android:textColor="#000435"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/onboardt2"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="579dp"
+        android:text="@string/discover_a_community_where_skills_are_exchange_not_sold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/nextbtn1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="121dp"
+        android:backgroundTint="#000435"
+        android:text="@string/next"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/onboardt3"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/skip"
+        android:textAlignment="center"
+        android:textColor="#000435" />
+
+</RelativeLayout>
